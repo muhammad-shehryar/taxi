@@ -19,7 +19,7 @@ const App = () => {
 
     <Navbar/>
       </div>
-      <div className='w-[60%] mx-[350px] h-[11vh] bg-white absolute z-50 mt-[-30px] rounded-xl '>
+      <div className='w-[60%] mx-[350px] h-[11vh] bg-white absolute z-50 mt-[-30px] rounded-xl max-[768px]:hidden'>
         
        <div className='flex items-center list-none gap-x-7 px-10'>
           <img src={texi} className='h-[100px]'/>

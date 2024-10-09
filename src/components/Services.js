@@ -61,7 +61,7 @@ const Services = () => {
       </div>
     </section>
     <div className='w-[65%] flex justify-center mx-auto items-center gap-x-5'>
-        <div className='flex flex-col items-center w-[30%] gap-y-5'>
+        <div className='flex flex-col items-center w-[30%] gap-y-5 max-[768px]:hidden'>
             <h1 className='font-bold text-yellow-500 text-2xl'>OUR FLEET</h1>
             <p className='font-semibold'>Here are our available vehicles!</p>
         </div>
