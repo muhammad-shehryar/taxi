@@ -8,12 +8,14 @@ import Services from './components/Services'
 import TaxiRates from './components/TaxiRates'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
+import Check1 from './components/Check1'
 
 
 
 const App = () => {
   return (
     <>
+    <Check1/>
     <div className='relative w-full'>
       <div>
 
@@ -21,7 +23,7 @@ const App = () => {
       </div>
       <div className='w-[60%] mx-[350px] h-[11vh] bg-white absolute z-50 mt-[-30px] rounded-xl max-[768px]:hidden'>
         
-       <div className='flex items-center list-none gap-x-7 px-10'>
+       <div className='flex items-center px-10 list-none gap-x-7'>
           <img src={texi} className='h-[100px]'/>
           <li>Home</li>
           <li>Services</li>
